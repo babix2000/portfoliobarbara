@@ -1463,6 +1463,10 @@ section#projetos .linha-titulo::before{
 	opacity: 0;
 }
 
+.wrapper-sites .grid > div a{
+	width: 100%;
+}
+
 section#projetos.animate .wrapper-sites .grid > div{
 	animation-play-state: running;
 }
@@ -1483,6 +1487,7 @@ section#projetos.animate .wrapper-sites .grid > div{
   gap: 5px;
   text-align: center;
   font-size: 18px;
+  justify-content: center;
 }
 
 .div12{
